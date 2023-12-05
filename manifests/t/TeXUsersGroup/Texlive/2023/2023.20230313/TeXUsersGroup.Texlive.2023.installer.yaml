@@ -1,0 +1,21 @@
+# Created with YamlCreate.ps1 v2.2.11 $debug=NVS2.CRLF.5-1-22621-2506.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.5.0.schema.json
+
+PackageIdentifier: TeXUsersGroup.Texlive.2023
+PackageVersion: "2023.20230313"
+InstallerType: burn
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+InstallerSwitches:
+  Silent: -no-interaction -q -no-gui
+  SilentWithProgress: -no-interaction
+UpgradeBehavior: install
+ReleaseDate: 2023-03-13
+Installers:
+- Architecture: x64
+  InstallerUrl: https://mirror.ctan.org/systems/texlive/Images/texlive2023-20230313.iso
+  InstallerSha256: 620923DE5936AB315926E81DE2CB8253A9C626FB7E03D8FFE0D424598EB32F94
+ManifestType: installer
+ManifestVersion: 1.5.0

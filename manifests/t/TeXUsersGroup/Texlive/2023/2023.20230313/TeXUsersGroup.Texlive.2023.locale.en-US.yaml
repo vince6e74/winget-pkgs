@@ -1,0 +1,32 @@
+# Created with YamlCreate.ps1 v2.2.11 $debug=NVS2.CRLF.5-1-22621-2506.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.5.0.schema.json
+
+PackageIdentifier: TeXUsersGroup.Texlive.2023
+PackageVersion: "2023.20230313"
+PackageLocale: en-US
+Publisher: TeX Users Group
+PublisherUrl: https://tug.org/index.html
+PublisherSupportUrl: https://tug.org/texlive/
+# PrivacyUrl: 
+Author: Donald E. Knuth & TeX Users Group
+PackageName: TeX Live 2023
+# PackageUrl: 
+License: Custom
+LicenseUrl: https://tug.org/texlive/LICENSE.TL
+# Copyright: 
+# CopyrightUrl: 
+ShortDescription: A comprehensive cross-platform TeX distribution
+# Description: 
+Moniker: texlive2023
+Tags:
+- context
+- latex
+- tex
+- typesetting
+# ReleaseNotes: 
+# ReleaseNotesUrl: 
+# PurchaseUrl: 
+# InstallationNotes: 
+# Documentations: 
+ManifestType: defaultLocale
+ManifestVersion: 1.5.0
